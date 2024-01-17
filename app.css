@@ -1,0 +1,27 @@
+body {
+  background-color: aqua;
+  height: 100vh;
+}
+h1,
+h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+
+.grid {
+    width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 20px;
+  /* grid-area:; */
+}
+
+.card {
+    width: 80%;
+    margin: 10px auto;
+}
